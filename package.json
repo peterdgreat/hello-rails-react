@@ -7,10 +7,10 @@
     "babel-polyfill": "^6.26.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
-    "react_ujs": "^2.6.1",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.1",
+    "react_ujs": "^2.6.1",
     "redux": "^4.1.2",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.4.1",
@@ -19,10 +19,10 @@
     "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^21.0.0",
-    "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0",
+    "stylelint": "13.x",
+    "stylelint-config-standard": "21.x",
+    "stylelint-csstree-validator": "1.x",
+    "stylelint-scss": "3.x",
     "webpack-dev-server": "^3"
   }
 }
