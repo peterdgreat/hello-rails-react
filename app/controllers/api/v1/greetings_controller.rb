@@ -1,12 +1,8 @@
 class Api::V1::GreetingsController < ApplicationController
   def index
-       id = rand(1..Greeting.count)
+    id = rand(1..Greeting.count)
     @greeting = Greeting.find(id)
     render json: @greeting
-
-  end
-
-  def show
   end
 
   def create
@@ -19,6 +15,7 @@ class Api::V1::GreetingsController < ApplicationController
   end
 
   private
+
   def greeting_params
     params.require(:greeting).permit(:title)
   end
