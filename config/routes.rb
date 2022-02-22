@@ -9,4 +9,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root 'static#index'
+
+  # # forwards all requests to the static controller
+  # get '*path', to: 'static#index'
 end
